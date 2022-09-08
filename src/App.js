@@ -62,7 +62,7 @@ function App() {
       return 'red'
     }
   }
-
+// 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -76,67 +76,9 @@ function App() {
 
   return (
     <>
-      <Container>
-        <header>
-          <form id='form'>
-            <input type='text' placeholder='Search' id='search' class='search' />
-          </form>
-        </header>
-
-        <main id='main'>
-          <div class="movie">
-            <img src="https://image.tmdb.org/t/p/w1280/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" alt="" />
-
-            <div class="movie-info">
-              <h3>Movie Title</h3>
-              <span class='green'>9.8</span>
-            </div>
-
-            <div class="overview">
-
-            <h3>Overview</h3>
-
-              Quo maxime cupiditate possimus rerum repudiandae delectus accusamus saepe provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum temporibus rerum laborum libero iste sit asperiores nam dicta cum doloribus?
-            </div>
-          </div>
-
-          <div class="movie">
-            <img src="https://image.tmdb.org/t/p/w1280/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" alt="" />
-
-            <div class="movie-info">
-              <h3>Movie Title</h3>
-              <span class='green'>9.8</span>
-            </div>
-
-            <div class="overview">
-
-              Quo maxime cupiditate possimus rerum repudiandae delectus accusamus saepe provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum temporibus rerum laborum libero iste sit asperiores nam dicta cum doloribus?
-            </div>
-          </div>
-
-          <div class="movie">
-            <img src="https://image.tmdb.org/t/p/w1280/62HCnUTziyWcpDaBO2i1DX17ljH.jpg" alt="" />
-
-            <div class="movie-info">
-              <h3>Movie Title</h3>
-              <span class='green'>9.8</span>
-            </div>
-
-            <div class="overview">
-              Quo maxime cupiditate possimus rerum repudiandae delectus accusamus saepe provident? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum temporibus rerum laborum libero iste sit asperiores nam dicta cum doloribus?
-            </div>
-          </div>
- 
-        </main>
-      </Container>
+      
     </>  
   );
 } 
-
-const Container = style.div `
-
-
-`
-
 
 export default App;
